@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(247, 224, 194);
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; /* Full viewport height */
+}
+#container{
+    box-sizing: border-box;
+
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+
+    /* Flexbox to center child elements */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;   /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Helvetica, sans-serif;
+}
+#btnContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color: rgb(85, 200, 161);
+}
